@@ -3,7 +3,7 @@
 html,
 body {
     background: url("https://images4.alphacoders.com/574/thumb-1920-574726.jpg");
-    background-size: cover;
+    /* background-size: cover; */
     background-repeat: no-repeat;
     font-size: 62.5%;
     margin: 0;
@@ -48,8 +48,8 @@ h1 {
 
 .playing {
     transform: scale(1.1);
-    border-color: #ffc600;
-    box-shadow: 0 0 1rem #ffc600;
+    /* border-color: #ffc600; */
+    /* box-shadow: 0 0 1rem #ffc600; */
 }
 
 kbd {
