@@ -1,16 +1,63 @@
 @import url("https://use.typekit.net/kja4hep.css");
 
-body
-{
-    background: url(background.jpg);
+html,
+body {
+    background: url("https://images4.alphacoders.com/574/thumb-1920-574726.jpg");
+    background-size: cover;
     background-repeat: no-repeat;
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
 }
 
-h1
-{
+h1 {
     text-align: center;
     font-family: 'lores-12', sans-serif;
     font-weight: bold;
-    font-size: 5em;
+    font-size: 5rem;
     color: #000000;
+}
+
+.keys {
+
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    /* height: 400px;
+    width: 600px;
+    margin-top: 150px; */
+}
+
+.key {
+    border: .4rem solid black;
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    transition: all .07s ease;
+    width: 10rem;
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.4);
+    text-shadow: 0 0 .5rem black;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+}
+
+kbd {
+    display: block;
+    font-size: 4rem;
+}
+
+.sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #ffc600;
 }

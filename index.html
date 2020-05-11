@@ -1,13 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokemon Drum Pad</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <h1>Pokemon Drum Pad</h1>
+
+    <div class="keys">
+
+        <div data-key="65" class="key">
+            <kbd>A</kbd>
+            <span class="sound">item found</span>
+        </div>
+
+    </div>
+
+    <audio data-key="65" src="sounds/item-found.mp3"></audio>
+
     <script src="script.js"></script>
 </body>
+
 </html>
