@@ -2,82 +2,84 @@
 
 html,
 body {
-    background: url("https://images4.alphacoders.com/574/thumb-1920-574726.jpg");
-    background-repeat: no-repeat;
-    font-size: 62.5%;
-    margin: 0;
-    padding: 0;
-    height: 100%;
+  background: url("https://images4.alphacoders.com/574/thumb-1920-574726.jpg");
+  background-repeat: no-repeat;
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
-.dark-mode{
+.dark-mode {
   background: url("https://i.imgur.com/3FA4btA.png");
- }
+}
 
 h1 {
-    text-align: center;
-    font-family: 'lores-12', sans-serif;
-    font-weight: bold;
-    font-size: 5rem;
-    color: #000000;
+  text-align: center;
+  font-family: 'lores-12', sans-serif;
+  font-weight: bold;
+  font-size: 5rem;
+  color: #000000;
 }
 
 .keys {
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
-    margin: 0 auto;
-    display: flex;
-    width: 399px;
-    /* height: 400px;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  width: 399px;
+  /* height: 400px;
     width: 600px;
     margin-top: 150px; */
 }
 
 .key {
-    /* border: .4rem solid black;
+  /* border: .4rem solid black;
     border-radius: .5rem; */
-    margin: 1rem;
-    font-size: 1.5rem;
-    padding: 1rem .5rem;
-    transition: all .07s ease;
-    width: 7rem;
-    text-align: center;
-    color: black;
-    /* background: rgba(0, 0, 0, 0.4); */
-    background-image: url('pokeball.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    text-shadow: 0 0 .5rem white;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  width: 7rem;
+  text-align: center;
+  color: black;
+  /* background: rgba(0, 0, 0, 0.4); */
+  background-image: url('pokeball.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-shadow: 0 0 .5rem white;
 }
 
 .playing {
-    transform: scale(1.1);
-    /* border-color: #ffc600; */
-    /* box-shadow: 0 0 1rem #ffc600; */
+  transform: scale(1.1);
+  /* border-color: #ffc600; */
+  /* box-shadow: 0 0 1rem #ffc600; */
 }
 
 kbd {
-    display: block;
-    font-size: 4rem;
+  display: block;
+  font-size: 4rem;
 }
 
 .sound {
-    font-size: 1.2rem;
-    text-transform: uppercase;
-    letter-spacing: .1rem;
-    color: #000000;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #000000;
 }
 
-kbd , button, .keys{
-    font-family: 'lores-12', sans-serif;
+kbd,
+button,
+.keys {
+  font-family: 'lores-12', sans-serif;
 }
 
 
 /* root for colors and font family */
 
-button{
-  background-color: transparent; 
+button {
+  background-color: transparent;
   /* border: none; */
   color: black;
   padding: 1em 1em;
