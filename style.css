@@ -1,5 +1,7 @@
+/* font */
 @import url("https://use.typekit.net/kja4hep.css");
 
+/* default style */
 html,
 body {
   background: url("https://images4.alphacoders.com/574/thumb-1920-574726.jpg");
@@ -10,7 +12,14 @@ body {
   height: 100%;
 }
 
-.dark-mode {
+kbd,
+button,
+.keys {
+  font-family: 'lores-12', sans-serif;
+}
+
+/* toggle dark theme */
+.dark-theme {
   background: url("https://i.imgur.com/3FA4btA.png");
 }
 
@@ -70,15 +79,6 @@ kbd {
   color: #000000;
 }
 
-kbd,
-button,
-.keys {
-  font-family: 'lores-12', sans-serif;
-}
-
-
-/* root for colors and font family */
-
 button {
   background-color: transparent;
   /* border: none; */
@@ -98,4 +98,3 @@ button:hover {
   background-color: #735a4a;
   color: black;
 }
-

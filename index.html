@@ -1,73 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokemon Drum Pad</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+    <!-- Toggle dark theme -->
     <button id="click">Dark Theme</button>
 
-
+    <!-- Title -->
     <h1>Pokemon Drum Pad</h1>
 
-
-
+    <!-- Keys -->
     <div class="keys">
-
+        <!-- Keyboard key : A -->
         <div data-key="65" class="key">
             <kbd>A</kbd>
             <span class="sound">item found</span>
         </div>
-
+        <!-- Keyboard key : z -->
         <div data-key="90" class="key">
             <kbd>Z</kbd>
-            <span class="sound">hp restore</span>
+            <span class="sound">hp restored</span>
         </div>
-
+        <!-- Keyboard key : E -->
         <div data-key="69" class="key">
             <kbd>E</kbd>
             <span class="sound">a button</span>
         </div>
-
+        <!-- Keyboard key : Q -->
         <div data-key="81" class="key">
             <kbd>Q</kbd>
             <span class="sound">pikachu</span>
         </div>
-
+        <!-- Keyboard key : S -->
         <div data-key="83" class="key">
             <kbd>S</kbd>
             <span class="sound">pokeball</span>
         </div>
-
+        <!-- Keyboard key : D -->
         <div data-key="68" class="key">
             <kbd>D</kbd>
             <span class="sound">wall bump</span>
         </div>
-
+        <!-- Keyboard key : W -->
         <div data-key="87" class="key">
             <kbd>W</kbd>
             <span class="sound">ost part 1</span>
         </div>
-
+        <!-- Keyboard key : X -->
         <div data-key="88" class="key">
             <kbd>X</kbd>
             <span class="sound">ost part 2</span>
         </div>
-
+        <!-- Keyboard key : C -->
         <div data-key="67" class="key">
             <kbd>C</kbd>
             <span class="sound">ost part 3</span>
         </div>
-
-
-
     </div>
 
-
+    <!-- Sounds -->
     <audio data-key="65" src="sounds/item-found.mp3"></audio>
     <audio data-key="90" src="sounds/hp-restore.mp3"></audio>
     <audio data-key="69" src="sounds/a-button.mp3"></audio>
@@ -79,7 +74,5 @@
     <audio data-key="67" src="sounds/ost-part-3.mp3"></audio>
 
     <script src="script.js"></script>
-
 </body>
-
 </html>
