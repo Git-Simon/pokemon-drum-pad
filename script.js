@@ -34,4 +34,3 @@ var body = document.body;
 button.addEventListener("click", function () {
   body.classList.toggle("dark-mode");
 });
-

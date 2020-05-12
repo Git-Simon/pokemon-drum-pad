@@ -45,7 +45,7 @@ h1 {
   text-align: center;
   color: black;
   /* background: rgba(0, 0, 0, 0.4); */
-  background-image: url('pokeball.png');
+  background-image: url('https://image.flaticon.com/icons/svg/188/188918.svg');
   background-size: contain;
   background-repeat: no-repeat;
   text-shadow: 0 0 .5rem white;
@@ -53,8 +53,9 @@ h1 {
 
 .playing {
   transform: scale(1.1);
-  /* border-color: #ffc600; */
-  /* box-shadow: 0 0 1rem #ffc600; */
+  border-color: #ffc600;
+  border-radius: 3em;
+  box-shadow: 0 0 1rem #ffc600;
 }
 
 kbd {
@@ -97,3 +98,4 @@ button:hover {
   background-color: #735a4a;
   color: black;
 }
+
