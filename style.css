@@ -3,12 +3,16 @@
 html,
 body {
     background: url("https://images4.alphacoders.com/574/thumb-1920-574726.jpg");
-    /* background-size: cover; */
     background-repeat: no-repeat;
     font-size: 62.5%;
     margin: 0;
     padding: 0;
+    height: 100%;
 }
+
+.dark-mode{
+  background: url("https://i.imgur.com/3FA4btA.png");
+ }
 
 h1 {
     text-align: center;

@@ -18,21 +18,20 @@ function removeTransition(e) {
 
 }
 
-
 const keys = Array.from(document.querySelectorAll('.key'));
 
 keys.forEach(key => key.addEventListener('transitionend', removeTransition));
 
 
-
-
 window.addEventListener('keydown', playSound);
 
-// volume
-var slider = document.getElementById("myRange");
-var output = document.getElementById("demo");
-output.innerHTML = slider.value;
 
-slider.oninput = function() {
-  output.innerHTML = this.value;
-}
+
+//toggle darkmode
+  var button = document.getElementsByTagName("button")[0];
+  var body = document.body;
+  button.addEventListener("click", function(){
+   body.classList.toggle("dark-mode");
+}); 
+
+//volume controller
