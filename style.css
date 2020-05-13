@@ -1,7 +1,7 @@
 /* Font */
 @import url("https://use.typekit.net/kja4hep.css");
 
-/* Keyframes */
+/* Keyframes : background position*/
 @keyframes defil{
   0%{
     background-position: 0px;
