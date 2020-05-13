@@ -29,15 +29,3 @@ button.addEventListener("click", () =>
 {
   body.classList.toggle("dark-theme")
 })
-
-
-// rotate pokeballs 360 degree on click
-$('.key').on("click", () =>
-{       
-  $(this).addClass("imageRot").one('webkitAnimationEnd mozAnimationEnd oAnimationEnd msAnimationEnd animationend', function () 
-  {
-      $(this).removeClass("imageRot") //remove anim class
-      var url = $(this).data('https://image.flaticon.com/icons/svg/188/188918.svg') //get url from data-attribute
-      $( ":mobile-pagecontainer" ).pagecontainer( "change", url) //navigate to page      
-  })
-})
