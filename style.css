@@ -127,14 +127,27 @@ kbd
   box-shadow: 0 0 1rem #faff00;
 }
 
+/* characters */
 .sacha 
 {
   background-image: url('https://files.gamebanana.com/img/ico/sprays/animated_bike.gif');
-  width: 200px;
-  height: 200px;
+  width: 160px;
+  height: 160px;
   background-repeat: no-repeat;
   margin: 0 auto;
   background-size: contain;
   text-align: center;
-  margin-top: 15rem;
+  margin-top: 14rem;
+}
+
+.latias
+{
+position: absolute;
+top: 9rem;
+right: 20rem;
+background-image:url('https://vignette.wikia.nocookie.net/pokemon/images/3/3d/Latias_BW.gif');
+width: 220px;
+height: 220px;
+background-repeat: no-repeat;
+background-size: contain;
 }
