@@ -2,66 +2,56 @@
 @import url("https://use.typekit.net/kja4hep.css");
 
 /* Keyframes : background position*/
-@keyframes defil
-{
-  0%
-  {
+@keyframes defil {
+  0% {
     background-position: 0px;
   }
 
-  100%
-  {
+  100% {
     background-position: 3840px;
   }
 }
 
 /*rotation pokeball*/
-@keyframes pokeball
-{
-  0%
-  {
-    transform:  translateY(-50%) rotate(0deg)
+@keyframes pokeball {
+  0% {
+    transform: translateY(-50%) rotate(0deg);
   }
 
-  100%
-  {
+  100% {
     transform: translateY(-50%) rotate(360deg);
   }
 }
 
 /* Default style */
 html,
-body 
-{
+body {
   background: url("https://images4.alphacoders.com/574/thumb-1920-574726.jpg");
   background-repeat: no-repeat;
   font-size: 62.5%;
   margin: 0;
   padding: 0;
   height: 100%;
-  background-repeat:repeat-x;
+  background-repeat: repeat-x;
   animation: defil 10s linear infinite;
-  user-select:none;
+  user-select: none;
 }
 
 kbd,
 button,
-.keys 
-{
-  font-family: 'lores-12', sans-serif;
+.keys {
+  font-family: "lores-12", sans-serif;
 }
 
 /* BODY */
 
 /* Toggle dark theme */
-.dark-theme 
-{
+.dark-theme {
   background: url("https://i.imgur.com/3FA4btA.png");
 }
 
 /* Dark theme button */
-button
-{
+button {
   background-color: transparent;
   color: #000000;
   padding: 1rem 1rem;
@@ -73,17 +63,15 @@ button
   border-color: #000000;
 }
 
-button:hover 
-{
-  background-color: #735a4a;
+button:hover {
+  background-color: #b1b1b1;
   color: #000000;
 }
 
 /* Title */
-h1 
-{
+h1 {
   text-align: center;
-  font-family: 'lores-12', sans-serif;
+  font-family: "lores-12", sans-serif;
   font-weight: bold;
   font-size: 8rem;
   color: #000000;
@@ -91,8 +79,7 @@ h1
 }
 
 /* Drum pad */
-.keys 
-{
+.keys {
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
@@ -102,8 +89,7 @@ h1
 }
 
 /* Drum pad buttons */
-.key 
-{
+.key {
   border: 0.4rem solid #000000;
   border-radius: 6rem;
   margin: 1rem;
@@ -116,11 +102,10 @@ h1
   background-size: contain;
   background-repeat: no-repeat;
   text-shadow: 0 0 0.5rem #ffffff;
-  position:relative;
+  position: relative;
 }
 
-.key .pokeball
-{
+.key .pokeball {
   position: absolute;
   top: 50%;
   left: 0px;
@@ -129,15 +114,13 @@ h1
 }
 
 /* Button key */
-kbd 
-{
+kbd {
   display: block;
   font-size: 4rem;
 }
 
 /* Sound name */
-.sound 
-{
+.sound {
   font-size: 1.4rem;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
@@ -145,8 +128,7 @@ kbd
 }
 
 /* animation when button pressed */
-.playing 
-{
+.playing {
   transform: scale(1.1);
   border-color: #faff00;
   border-radius: 10rem;
@@ -154,9 +136,8 @@ kbd
 }
 
 /* characters */
-.sacha 
-{
-  background-image: url('https://files.gamebanana.com/img/ico/sprays/animated_bike.gif');
+.sacha {
+  background-image: url("https://files.gamebanana.com/img/ico/sprays/animated_bike.gif");
   width: 160px;
   height: 160px;
   background-repeat: no-repeat;
@@ -166,14 +147,13 @@ kbd
   margin-top: 14rem;
 }
 
-.latias
-{
-position: absolute;
-top: 9rem;
-right: 20rem;
-background-image:url('https://vignette.wikia.nocookie.net/pokemon/images/3/3d/Latias_BW.gif');
-width: 220px;
-height: 220px;
-background-repeat: no-repeat;
-background-size: contain;
+.latias {
+  position: absolute;
+  top: 9rem;
+  right: 20rem;
+  background-image: url("https://vignette.wikia.nocookie.net/pokemon/images/3/3d/Latias_BW.gif");
+  width: 220px;
+  height: 220px;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
